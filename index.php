@@ -2,6 +2,7 @@
 <html>
 <head></head>
 <body>
-        <?php include_once('includes/models/api_result.php'); ?>
+        <?php echo('Bindle Api'); ?>
+        <a href="includes/models/api_result.php"></a>
 </body>
 </html>
