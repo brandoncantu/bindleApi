@@ -28,5 +28,7 @@ while($book = $res->fetch_assoc() ){
     array_push($books, $respuesta);
 }
 $all_books['books'] = $books;
-echo json_encode($all_books, JSON_PRETTY_PRINT);
+$resp= (json_encode($all_books));
+die(var_dump($all_books));
+//echo json_encode($all_books, JSON_PRETTY_PRINT);
 ?>
