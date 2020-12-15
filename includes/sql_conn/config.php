@@ -1,8 +1,8 @@
 <?php             
-    $user = 'root';
-    $password = '';
-    $db = 'bindle';
-    $host = '127.0.0.1';
+    $user = 'b40a8424d74314';
+    $password = '9261175a';
+    $db = 'heroku_bda44d56559823a';
+    $host = 'us-cdbr-east-02.cleardb.com';
 
     $link = mysqli_connect($host, $user, $password, $db);
         if(!$link){
